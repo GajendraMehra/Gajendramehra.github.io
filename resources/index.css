@@ -1,0 +1,383 @@
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("img/onload.gif") center no-repeat #fff;
+}
+
+.jumbotron {
+  background-color : #ec696d;
+ color: #FFFFFF;
+}
+body {
+  font-family: 'Philosopher', sans-serif;
+  background-color : #e0e0e0;
+}
+.navbar-inverse .navbar-brand{
+  color: white;
+}
+h1 {
+  font-family: 'Audiowide', cursive;
+}
+
+.col-md-6 {
+
+ /* padding: 10px; */
+
+}
+
+.head {
+  background-color: #e0e0e0;
+  color:red;
+/*  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;*/
+}
+.head h2{
+    color:#67292f;
+}
+
+.row-body {
+  background-color: #e0e0e0;
+  margin-bottom: 50px;
+ /* border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+}
+h2 {
+  margin-bottom: 0px;
+  padding-top 15px;
+  font-family: 'Bungee Inline', cursive;
+  padding-bottom: 10px;
+  color: #212121;
+}
+
+hr {
+  border-color: black;
+}
+
+p {
+    font-family: 'Philosopher', sans-serif;
+  color: #170712;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #1976D2;
+}
+.navbar-right>li{
+font-family: 'Philosopher', sans-serif;
+letter-spacing: 1px;
+font-size:20px;
+}
+#top {
+  color: #500a68;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+
+}
+
+#year {
+  font-size: 10px;
+}
+
+.info-head {
+  background-color: #e0e0e0;
+}
+
+.row-info {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #e0e0e0;
+}
+
+.col-md-4 {
+  min-height: 143px;
+}
+
+#git {
+  color: black;
+}
+
+#fb {
+  color: dodgerblue;
+}
+
+#edu{
+font-family: 'Philosopher', sans-serif;
+  color: #860808;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight:bold;
+}
+
+ul {
+  padding-left: 35%;
+}
+
+.col-lg-4 {
+  background-color: #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.row-progress {
+  margin-top: 40px;
+}
+
+.html {
+  width: 70%;
+}
+.html2015 {
+  width: 10%;
+}
+
+.html2016 {
+  width: 50%;
+}
+
+.html2017 {
+  width: 70%;
+}
+
+.html2018 {
+  width: 100%;
+}
+
+.css {
+  width: 60%;
+}
+.css2015 {
+  width: 20%;
+}
+
+.css2016 {
+  width: 40%;
+}
+
+.css2017 {
+  width: 80%;
+}
+
+.css2018 {
+  width: 95%;
+}
+
+.js {
+  width: 40%;
+}
+
+.js2015 {
+  width: 0%;
+}
+
+.js2016 {
+  width: 25%;
+}
+
+.js2017 {
+  width: 40%;
+}
+
+.js2018 {
+  width: 60%;
+}
+
+.Clang {
+  width: 60%;
+}
+
+.Clang2015 {
+  width: 10%;
+}
+
+.Clang2016 {
+  width: 30%;
+}
+
+.Clang2017 {
+  width: 60%;
+}
+
+.Clang2018 {
+  width: 75%;
+}
+
+.sql {
+  width: 50%;
+}
+
+.sql2015 {
+  width: 20%;
+}
+
+.sql2016 {
+  width: 40%;
+}
+
+.sql2017 {
+  width: 50%;
+}
+
+.sql2018 {
+  width: 65%;
+}
+
+.sqlColor {
+  background-color: #67189b;
+}
+
+.bootstrap {
+  width: 60%;
+}
+
+.bootstrap2016 {
+  width: 10%;
+}
+
+.bootstrap2017 {
+  width: 60%;
+}
+
+.bootstrap2018 {
+  width: 80%;
+}
+
+.bootstrapColor {
+  background-color: #67189b;
+}
+.aspNet {
+  width: 40%;
+}
+
+.aspNet2016 {
+  width: 15%;
+}
+
+.aspNet2017 {
+  width: 40%;
+}
+
+.aspNet2018 {
+  width: 65%;
+}
+
+.jquery {
+  width: 30%;
+}
+
+.jquery2016 {
+  width: 0%;
+}
+
+.jquery2017 {
+  width: 30%;
+}
+
+.jquery2018 {
+  width: 75%;
+}
+
+.semantic {
+  width: 40%;
+}
+
+.semantic2016 {
+  width: 0%;
+}
+
+.semantic2017 {
+  width: 40%;
+}
+
+.semantic2018 {
+  width: 95%;
+}
+
+/*.mvc {
+  width: 50%;
+}
+
+.mvc2016 {
+  width: 33%;
+}
+
+.mvc2017 {
+  width: 66%;
+}
+
+.mvc2018 {
+  width: 85%;
+}*/
+
+#light {
+ margin-top: 65px;
+ font-size: 300px;
+ color: gold;
+}
+
+.ideEx {
+  margin-top: 45px;
+}
+
+#cubes {
+ margin-top: 65px;
+ font-size: 250px;
+ color: dodgerblue;
+}
+
+#server1 {
+ margin-right: 5px;
+ font-size: 100px;
+}
+
+#server2 {
+ margin-left: 5px;
+ font-size: 75px;
+}
+
+.serverBoxTxt {
+  font-size: 14px;
+
+}
+
+.serverFull {
+  min-height: 549px;
+}
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needefad */
+  animation:
+    typing 3.5s steps(40, end) ,
+    blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.blink-caret {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+
+@media(max-width: 770px) {
+  #header_menu{
+    display: none;
+  }
+}

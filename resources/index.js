@@ -1,0 +1,124 @@
+
+$(document).ready(function(){
+  $("#lang-2014").click(function(){
+  $("#lang-2014").addClass("active");
+  $("#lang-2015").removeClass("active");
+  $("#lang-2016").removeClass("active");
+  $("#lang-2017").removeClass("active");
+  $("#html").removeClass("html").removeClass("html2015").removeClass("html2016").removeClass("html2017").addClass("html2014");
+  $("#css").removeClass("css").removeClass("css2015").removeClass("css2016").removeClass("css2017").addClass("css2014");
+  $("#js").removeClass("js").removeClass("js2015").removeClass("js2016").removeClass("js2017").addClass("js2014");
+  $("#Clang").removeClass("Clang").removeClass("Clang2015").removeClass("Clang2016").removeClass("Clang2017").addClass("Clang2014");
+  $("#sql").removeClass("sql").removeClass("sql2015").removeClass("sql2016").removeClass("sql2017").addClass("sql2014");
+  $("#per-html").text('30%');
+  $("#per-css").text('20%');
+  $("#per-js").text('10%');
+  $("#per-Clang").text('10%');
+  $("#per-sql").text('20%');
+  });
+  $("#lang-2015").click(function(){
+  $("#lang-2014").removeClass("active");
+  $("#lang-2015").addClass("active");
+  $("#lang-2016").removeClass("active");
+  $("#lang-2017").removeClass("active");
+  $("#html").removeClass("html").removeClass("html2014").removeClass("html2016").removeClass("html2017").addClass("html2015");
+  $("#css").removeClass("css").removeClass("css2014").removeClass("css2016").removeClass("css2017").addClass("css2015");
+  $("#js").removeClass("js").removeClass("js2014").removeClass("js2016").removeClass("js2017").addClass("js2015");
+  $("#Clang").removeClass("Clang").removeClass("Clang2014").removeClass("Clang2016").removeClass("Clang2017").addClass("Clang2015");
+  $("#sql").removeClass("sql").removeClass("sql2014").removeClass("sql2016").removeClass("sql2017").addClass("sql2015");
+
+  $("#per-html").text('10%');
+  $("#per-css").text('20%');
+  $("#per-js").text('00%');
+  $("#per-Clang").text('15%');
+  $("#per-sql").text('20%');
+  });
+  $("#lang-2016").click(function(){
+  $("#lang-2014").removeClass("active");
+  $("#lang-2015").removeClass("active");
+  $("#lang-2016").addClass("active");
+  $("#lang-2017").removeClass("active");
+  $("#html").removeClass("html").removeClass("html2014").removeClass("html2015").removeClass("html2017").addClass("html2016");
+  $("#css").removeClass("css").removeClass("css2014").removeClass("css2015").removeClass("css2017").addClass("css2016");
+  $("#js").removeClass("js").removeClass("js2014").removeClass("js2015").removeClass("js2017").addClass("js2016");
+  $("#Clang").removeClass("Clang").removeClass("Clang2014").removeClass("Clang2015").removeClass("Clang2017").addClass("Clang2016");
+  $("#sql").removeClass("sql").removeClass("sql2014").removeClass("sql2015").removeClass("sql2017").addClass("sql2016");
+  $("#per-html").text('50%');
+  $("#per-css").text('40%');
+  $("#per-js").text('25%');
+  $("#per-Clang").text('30%');
+  $("#per-sql").text('40%');
+  });
+  $("#lang-2017").click(function(){
+  $("#lang-2014").removeClass("active");
+  $("#lang-2015").removeClass("active");
+  $("#lang-2016").removeClass("active");
+  $("#lang-2017").addClass("active");
+  $("#html").removeClass("html").removeClass("html2014").removeClass("html2015").removeClass("html2016").addClass("html2017");
+  $("#css").removeClass("css").removeClass("css2014").removeClass("css2015").removeClass("css2016").addClass("css2017");
+  $("#js").removeClass("js").removeClass("js2014").removeClass("js2015").removeClass("js2016").addClass("js2017");
+  $("#Clang").removeClass("Clang").removeClass("Clang2014").removeClass("Clang2015").removeClass("Clang2016").addClass("Clang2017");
+  $("#sql").removeClass("sql").removeClass("sql2014").removeClass("sql2015").removeClass("sql2016").addClass("sql2017");
+  $("#per-html").text('70%');
+  $("#per-css").text('80%');
+  $("#per-js").text('40%');
+  $("#per-Clang").text('60%');
+  $("#per-sql").text('55%');
+  });
+
+  $("#fram-2015").click(function(){
+  $("#fram-2015").addClass("active");
+  $("#fram-2016").removeClass("active");
+  $("#fram-2017").removeClass("active");
+  $("#bootstrap").removeClass("bootstrap").removeClass("bootstrap2016").removeClass("bootstrap2017").addClass("bootstrap2015");
+  $("#semantic").removeClass("semantic-js").removeClass("semantic2016").removeClass("semantic2017").addClass("semantic2015");
+  $("#jquery").removeClass("jquery").removeClass("jquery2016").removeClass("jquery2017").addClass("jquery2015");
+  $("#aspNet").removeClass("aspNet").removeClass("aspNet2016").removeClass("aspNet2017").addClass("aspNet2015");
+  $("#mvc").removeClass("mvc").removeClass("mvc2016").removeClass("mvc2017").addClass("mvc2015");
+  $("#per-bootstrap").text('25%');
+  $("#per-semantic").text('5%');
+  $("#per-jquery").text('25%');
+  $("#per-aspNet").text('15%');
+  $("#per-mvc").text('33%');
+  });
+  $("#fram-2016").click(function(){
+  $("#fram-2015").removeClass("active");
+  $("#fram-2016").addClass("active");
+  $("#fram-2017").removeClass("active");
+  $("#bootstrap").removeClass("bootstrap").removeClass("bootstrap2015").removeClass("bootstrap2017").addClass("bootstrap2016");
+  $("#semantic").removeClass("semantic-js").removeClass("semantic2015").removeClass("semantic2017").addClass("semantic2016");
+  $("#jquery").removeClass("jquery").removeClass("jquery2015").removeClass("jquery2017").addClass("jquery2016");
+  $("#aspNet").removeClass("aspNet").removeClass("aspNet2015").removeClass("aspNet2017").addClass("aspNet2016");
+  $("#mvc").removeClass("mvc").removeClass("mvc2015").removeClass("mvc2017").addClass("mvc2016");
+  $("#per-bootstrap").text('10%');
+  $("#per-semantic").text('10%');
+  $("#per-jquery").text('30%');
+  $("#per-aspNet").text('15%');
+  $("#per-mvc").text('66%');
+  });
+  $("#fram-2017").click(function(){
+  $("#fram-2015").removeClass("active");
+  $("#fram-2016").removeClass("active");
+  $("#fram-2017").removeClass("active");
+  $("#bootstrap").addClass("bootstrap").removeClass("bootstrap2015").removeClass("bootstrap2016").addClass("bootstrap2017");
+  $("#semantic").removeClass("semantic-js").removeClass("semantic2015").removeClass("semantic2016").addClass("semantic2017");
+  $("#jquery").removeClass("jquery").removeClass("jquery2015").removeClass("jquery2016").addClass("jquery2017");
+  $("#aspNet").removeClass("aspNet").removeClass("aspNet2015").removeClass("aspNet2016").addClass("aspNet2017");
+  $("#mvc").removeClass("mvc").removeClass("mvc2015").removeClass("mvc2016").addClass("mvc2017");
+  $("#per-bootstrap").text('60%');
+  $("#per-semantic").text('40%');
+  $("#per-jquery").text('30%');
+  $("#per-aspNet").text('40%');
+  $("#per-mvc").text('85%');
+  });
+  $(window).resize(function() {
+        // This will fire each time the window is resized:
+        if($(window).width() >= 1200) {
+            // if larger or equal
+            $("#serverWindow").addClass("serverFull");
+        } else {
+            // if smaller
+            $("#serverWindow").removeClass("serverFull");
+        }
+    }).resize();
+});
