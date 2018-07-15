@@ -400,11 +400,14 @@ ul {
     .pro_pic {
         margin:1em;
 				width:60%;
-				left:13%;
+				left:10%;
 				right: 5%;
 				top:10em;
 }
 .row{
 	margin: 0;
 }
+}
+.row-body p{
+	paddng:1em;
 }
