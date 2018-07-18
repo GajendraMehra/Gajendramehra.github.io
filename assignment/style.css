@@ -1,6 +1,6 @@
 body{
   background-color: 	#edf1de;
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
 }
 
@@ -32,22 +32,22 @@ body{
   margin-top:50px;
 }
 h3{
-    font-family: 'Source Sans Pro', sans-serif;
-    color:rgb(205, 82, 37);
+  font-family: 'Source Sans Pro', sans-serif;
+  color:rgb(205, 82, 37);
 
 }
 .card1{
   height:200px;
   width: 33%;
- float: left;
- text-align: right;
- margin-top: 50px;
+  float: left;
+  text-align: right;
+  margin-top: 50px;
 
 }
 #card2{
-width:62%;
-float: right;
-text-align: left;
+  width:62%;
+  float: right;
+  text-align: left;
 }
 .rows{
   margin-top: 20px;
@@ -63,7 +63,7 @@ input{
 }
 #btn_div{
   height:100px;
-    width:200px;
+  width:200px;
 }
 input[type=submit],input[type=reset]
 {
@@ -75,6 +75,6 @@ input[type=submit],input[type=reset]
 }
 input:focus {
 
-       border:2px solid rgb(211, 245, 2);
+  border:2px solid rgb(211, 245, 2);
 }
 font-family: 'PT Sans', sans-serif;
