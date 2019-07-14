@@ -1,8 +1,8 @@
 
 
-body{
+html,body{
     background: #4a4a4a;
-    height: 100vh;
+    height: 100%;
 }
 .ch{
     border: 1px solid red;
@@ -63,4 +63,7 @@ body{
 @keyframes swing {
     0% { transform: rotate(3deg); }
     100% { transform: rotate(-3deg); }
+}
+#custom-menu{
+    border:none;
 }
