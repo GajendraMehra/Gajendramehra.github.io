@@ -1,5 +1,9 @@
 
 
+body{
+    background: #4a4a4a;
+    height: 100vh;
+}
 .ch{
     border: 1px solid red;
 }
@@ -20,6 +24,43 @@
     width: 100%;
     height: 100%; 
     z-index: 9999;
-     background: url('../images/cube.gif') 50% 50% no-repeat rgb(249,249,249);
-    opacity: .8;
+     background: url('../images/cube.gif') 50% 50% no-repeat #4a4a4a;
+    opacity: 1;
+}
+
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+/* nail */
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
 }
