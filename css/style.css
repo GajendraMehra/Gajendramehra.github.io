@@ -19,16 +19,13 @@ html,body{
     cursor: pointer;
 }
 
-
 .loader-image {
     position: fixed;
     margin: auto;
-    /* left: 50%;
-    top: 50%; */
     width: 100%;
     height: 100%; 
     z-index: 9999;
-     background: url('../images/cube.gif') 50% 50% no-repeat #4a4a4a;
+    background: url('../images/cube.gif') 50% 50% no-repeat #4a4a4a;
     opacity: 1;
 }
 
@@ -71,3 +68,7 @@ html,body{
 #custom-menu{
     border:none;
 }
+
+.is-horizontal-center {
+    justify-content: center;
+  }

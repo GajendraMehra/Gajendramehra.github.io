@@ -5,106 +5,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal - Free Bulma template</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <!-- Bulma Version 0.8.x-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/bulma.css">
   </link>
   <link rel="stylesheet" href="./css/style.css">
-  </link>
-  <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
-
-  <title>About Gajendra</title>
+  <script async type="text/javascript" src="../js/bulma.js"></script>
 </head>
 
 <body>
-  <div class="loader-image"></div>
-
-  <section class="hero is-dark is-mobile" id="section">
-    <div class="hero-head">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <span class="navbar-item">
-              <a class="button is-white is-outlined"
-                href="https://github.com/GajendraMehra">
-                <span class="icon">
-                  <i class="fa fa-github"></i>
-                </span>
-                <span title="Invite me for your repositories.">Join me on Github</span>
-              </a>
-            </span>
-
-            <span class="navbar-burger burger has-text-white" data-target="navbarMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-          </div>
-          <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="tabs is-right">
-                <ul id="custom-menu">
-
-                  <li class="is-active"> <a class="navbar-item is-active" id="custom-menu">
-                      Home
-                    </a></li>
-                  <li><a class="navbar-item" id="custom-menu" onclick="alert('Currently not Avaliable.')">
-                      Resume
-                    </a></li>
-
-                </ul>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <div class="columns is-mobile is-centered ">
-        <div class="column is-mobile is-one-quarter-desktop is-three-quarters-tablet is-three-quarters-mobile">
-          <br>
-          <figure class="image swing">
-            <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg/687px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" width="200" > -->
-            <img class="" src="./images/intro.jpg" width="200">
-          </figure>
-        </div>
-
+  <!-- Navigation bar -->
+  <nav class="navbar is-link is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-
-
     </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">
+          <span class="icon">
+            <i class="fas fa-info"></i>
+          </span>
+          <span>About</span>
+        </a>
+        <a class="navbar-item" href="#services">
+          <span class="icon">
+            <i class="fas fa-bars"></i>
+          </span>
+          <span>Services</span>
+        </a>
+        <a class="navbar-item" href="#resume">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Resume</span>
+        </a>
+        <a class="navbar-item" href="#portfolio">
+          <span class="icon">
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span>Portfolio</span>
+        </a>
+        <a class="navbar-item" href="#contact">
+          <span class="icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span>Contact</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section class="hero is-dark is-fullheight is-fullheight-with-navbar">
+     
     <div class="hero-body">
-      <div class="columns  is-mobile is-centered">
-
-        <h2 class="title is-3"> g:/> gajendra mehra</h2>
-
+      
+      <div class="container">
+        
+        
+       <h2 class="title is-3">Hello World ! I am</h2> 
+        <h1 class="title is-1">
+         Gajendra Mehra
+        </h1>
+        <h2 class="subtitle is-3">
+          Full Stack Developer
+        </h2>
       </div>
-      <br>
-      <div class="columns  is-mobile is-centered">
-
-        <div class="title is-4">
-          <h3>
-            <span class="txt-rotate" data-period="2000"
-              data-rotate='[ "Hello World!", "I am a programmer from Devbhoomi, Uttrakhand.", "I mainly write code for Web and Mobile Applications .", "I also like bike riding and photography. ","Wanna Know more about me ? Get my resume from top right corner ." ]'></span>
-          </h3>
-        </div>
-
-      </div>
-
-    </div>
-    <div class="hero-foot">
-      <nav class="tabs is-boxed is-fullwidth">
-        <div class="container">
-          <ul>
-
-          </ul>
-        </div>
-      </nav>
     </div>
   </section>
 
-
-
+ 
+  <footer class="footer">
+    <div class="section-heading">
+     <p></p>
+    </div>
+  </footer>
 </body>
 <script src="./js/script.js"></script>
 <script src="./js/bulma.js"></script>
-
 </html>
