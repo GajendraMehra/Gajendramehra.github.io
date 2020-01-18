@@ -26,6 +26,9 @@ $(document).ready(function () {
         var str = args.join(" ");
         terminal.append(str + "\n");
     }
+    function resume() {
+        document.getElementById('download').click();
+    }
 
 
     // END COMMANDS
@@ -45,6 +48,9 @@ $(document).ready(function () {
     }, {
         "name": "help",
         "function": help
+    } ,{
+        "name": "resume",
+        "function": resume
     }, {
         "name": "echo",
         "function": echo
